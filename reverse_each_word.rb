@@ -5,11 +5,7 @@ string = "Hello there, and how are you?"
 #end
 
 def reverse_each_word(string)
-  arrayed = string.reverse.split.reverse
-  arrayed.collect do |word| 
-    word
-  end
-  return arrayed.join(' ')
+  string.split.collect {|word| word.reverse}.join(" ")
 end
 
 
