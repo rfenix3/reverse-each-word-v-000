@@ -1,4 +1,4 @@
-string = "Hello there, and how are you?"
+#string = "Hello there, and how are you?"
 
 #def reverse_each_word(string)
 #  temp = string.reverse.split.reverse.join(' ')
@@ -9,4 +9,4 @@ def reverse_each_word(string)
 end
 
 
-puts reverse_each_word(string).inspect
+#puts reverse_each_word(string).inspect
